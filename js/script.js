@@ -137,11 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
             background: linear-gradient(to right, #222, #333);
         }
 
-        .dark-mode .placeholder-img {
-            background-color: #444;
-            color: #ddd;
-        }
-
         .dark-mode .habilidades {
             background-color: #2a2a2a;
         }

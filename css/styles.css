@@ -227,7 +227,7 @@ nav a.active {
 .service-card {
   flex: 1;
   min-width: 250px;
-  max-width: 350px;
+  max-width: 360px;
   padding: var(--spacing-md);
   background-color: #fff;
   border-radius: var(--border-radius);
@@ -262,7 +262,7 @@ nav a.active {
 }
 
 .projects-grid {
-  display: grid;
+  display: inline-block;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--spacing-md);
   margin-bottom: var(--spacing-lg);
@@ -270,24 +270,24 @@ nav a.active {
 
 .project-card {
   background-color: #fff;
-  border-radius: var(--border-radius);
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.3s ease;
+  border-radius: 30px;
+  overflow: clip;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+  transition: margin-right 2s ease-in-out 0.5s;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: rotate(0.0);
 }
 
 .project-image {
-  height: 380px;
+  height: 395px;
   background-color: #e0e0e0;
   overflow: hidden;
 }
 
 .image-placeholder {
-  height: 150%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Luis Eduardo Soto</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>Luis Eduardo Soto</h1>
+  </div>
+  <div class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="about.html">Acerca de</a></li>
+      <li><a href="projects.html">Proyectos</a></li>
+      <li><a href="contact.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Contáctame</h2>
+    <p style="text-align: center; margin-bottom: var(--spacing-lg);">¿Tienes alguna pregunta, propuesta o simplemente quieres saludar? ¡Escríbeme!</p>
+
+    <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required placeholder="Tu nombre completo">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="_replyto" required placeholder="tucorreo@example.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Tu mensaje aquí..."></textarea>
+      </div>
+      <button type="submit" class="btn primary">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h2>Luis Eduardo Soto</h2>
+    </div>
+    <div class="footer-links">
+      <h3>Enlaces rápidos</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h3>Sígueme en</h3>
+      <div class="social-icons">
+        <a href="#" class="social-icon">FB</a>
+        <a href="#" class="social-icon">TW</a>
+        <a href="#" class="social-icon">IG</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
